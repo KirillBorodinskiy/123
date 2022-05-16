@@ -1,0 +1,93 @@
+{
+  "chairs":
+          [
+            {
+              "id": 1,
+              "name": "Zelená židle",
+              "price": 750.99,
+              "discount": 0.1,
+              "material": "WOOD | Zelený Dub | Zelená",
+              "description": "Není moc pohodlná, ale za tu cenu...",
+              "height": 60,
+              "backrest_height": 70
+            },
+            {
+              "id": 2,
+              "name": "Židle z bílého zlata",
+              "price": 99499.99,
+              "discount": 0.0,
+              "material": "METAL | Bílé Zlato | Bílá",
+              "description": "Královská!",
+              "height": 65,
+              "backrest_height": 90
+            },
+            {
+              "id": 3,
+              "name": "Plastová židlička",
+              "price": 299.99,
+              "discount": 0.05,
+              "material": "PLASTIC | Černý Plast | Černá",
+              "description": "Sedí se na ní opravdu špatně.",
+              "height": 60,
+              "backrest_height": 50
+            }
+          ],
+  "tables":
+          [
+            {
+              "id": 1001,
+              "name": "Královský stůl z bílého zlata",
+              "price": 151499.99,
+              "discount": 0.0,
+              "material": "METAL | Bílé Zlato | Bílá",
+              "description": "Královský stůl ke královské židli",
+              "height": 90,
+              "width": 160,
+              "depth": 70
+            }
+          ],
+  "beds":
+          [
+            {
+              "id": 2001,
+              "name": "Suprová postel",
+              "price": 14799.99,
+              "discount": 0.05,
+              "material": "WOOD| Bílý Dub| Bílá",
+              "description": "Spí se v ní sladce (ale matraci k ní nedostanete!)",
+              "height": 70,
+              "width": 90,
+              "depth": 210,
+              "grate_included_id": 3001
+            },
+            {
+              "id": 2002,
+              "name": "Suprová postel (bez roštu)",
+              "price": 12799.99,
+              "discount": 0.05,
+              "material": "WOOD | Bílý Dub| Bílá",
+              "description": "Spí se v ní sladce (ale matraci k ní nedostanete! A rošt taky ne!)",
+              "height": 70,
+              "width": 90,
+              "depth": 210,
+              "grate_included_id": null
+            }
+          ],
+  "grates":
+          [
+            {
+              "id": 3001,
+              "name": "Rošt k Suprové posteli",
+              "price": 2799.99,
+              "discount": 0.05,
+              "material": "WOOD | Dub | Hnědá",
+              "description": "Rošt k posteli",
+              "width": 90,
+              "depth": 210
+            }
+          ],
+  "others":
+          [
+
+          ]
+}
